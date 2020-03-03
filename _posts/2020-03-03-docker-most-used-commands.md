@@ -5,11 +5,10 @@ author: prabhu
 categories: [ docker, devops ]
 image: assets/images/docker.jpg
 ---
-#Most used docker commands
 
 The use case of docker is expanding every day and commands used to achieve the task differes with each scenario. Here we will list out the basic and most used docker commands used in our day to day operations.
 
-##Docker repository
+## Docker repository
 
 * Login to a remote docker repository
 
@@ -23,7 +22,7 @@ docker login -u <username> -p <password> <repository url>
 docker logout <repository url>
 ```
 
-##Docker images
+## Docker images
 
 * List images available in local repository
 
@@ -72,7 +71,7 @@ docker commit <container name> <image name>
 docker history --no-trunc <image name>
 ```
 
-##Docker containers
+## Docker containers
 
 * List all running containers
 
