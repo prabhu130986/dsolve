@@ -2,7 +2,7 @@
 layout: post
 title:  "Most used docker commands"
 author: prabhu
-categories: [ Docker, Devops ]
+categories: [ Docker ]
 image: assets/images/docker.jpg
 featured: true
 ---
