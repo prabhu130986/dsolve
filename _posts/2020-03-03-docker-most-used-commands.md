@@ -4,6 +4,7 @@ title:  "Most used docker commands"
 author: prabhu
 categories: [ docker, devops ]
 image: assets/images/docker.jpg
+featured: true
 ---
 
 The use case of docker is expanding every day and commands used to achieve the task differes with each scenario. Here we will list out the basic and most used docker commands used in our day to day operations.
@@ -122,4 +123,4 @@ docker start <container name>
 ```
 
 
-####There are many more frequently used commands but again depending on the scenarios. This is just a start to scratch the surface !!! Cheers !!!
+#### There are many more frequently used commands but again depending on the scenarios. This is just a start to scratch the surface !!! Cheers !!!
