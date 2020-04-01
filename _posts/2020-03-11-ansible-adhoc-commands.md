@@ -4,7 +4,7 @@ title:  "Ansible Adhoc Commands"
 author: Prabhu
 categories: [ Ansible ]
 image: assets/images/ansible.jpg
-featured: true
+featured: false
 ---
 
 Ansible adhoc commands are great to use when you want to perform a rare task or test a task. Below are some modules which we can test using adhoc commands
