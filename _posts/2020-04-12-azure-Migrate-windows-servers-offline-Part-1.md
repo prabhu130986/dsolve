@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Migrate on-premise windows servers to Azure offline - Part 1"
+title:  "Migrate on-premise windows servers to Azure using offline mode - Part 1"
 author: Prabhu
 categories: [ Ansible ]
 image: assets/images/azure.jpg
