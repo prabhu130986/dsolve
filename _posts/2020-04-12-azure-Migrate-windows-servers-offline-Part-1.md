@@ -76,4 +76,4 @@ There are 4 steps involved in this.
 Below Microsoft link has the step by step tutorial which covers all the above tasks.
 https://docs.microsoft.com/en-us/azure/databox/data-box-deploy-ordered
 
-#### So far we have covered the steps to capture the on-premise windows servers, convert them and ship them to Azure. In the next part we will see how to provision Azure VMs using the VHD that are shipped !!! Cheers !!!
+#### So far we have covered the steps to capture the on-premise windows servers, convert them and ship them to Azure. In [Part 2]({{ site.url }}{% link _posts/2020-04-12-azure-Migrate-windows-servers-offline-Part-2.md %}) we will see how to provision Azure VMs using the VHD that are shipped !!! Cheers !!!
