@@ -4,7 +4,7 @@ title:  "Most used docker commands"
 author: Prabhu
 categories: [ Docker ]
 image: assets/images/docker.jpg
-featured: true
+featured: false
 ---
 
 The use case of docker is expanding every day and commands used to achieve the task differes with each scenario. Here we will list out the basic and most used docker commands used in our day to day operations.

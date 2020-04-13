@@ -4,7 +4,7 @@ title:  "Ansible - How to connect to Windows host"
 author: Prabhu
 categories: [ Ansible ]
 image: assets/images/ansible.jpg
-featured: true
+featured: false
 ---
 
 Ansible is not only for automating Linux hosts but also Windows hosts. In order to connect to a windows target host some additional steps need to be performed. You can follow the below steps to configure windows host connection

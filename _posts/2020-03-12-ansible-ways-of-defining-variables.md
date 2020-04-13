@@ -4,7 +4,7 @@ title:  "Define variables in ansible playbook"
 author: Prabhu
 categories: [ Ansible ]
 image: assets/images/ansible.jpg
-featured: true
+featured: false
 ---
 
 There are different ways variables can be defined in ansible playbook. Let us see each of them with examples.
