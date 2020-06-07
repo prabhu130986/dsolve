@@ -24,14 +24,14 @@ Now let us use Nginx ingress controller to route traffic to AKS cluster services
 
 In this architecture, Nginx controller is deployed on a sperate namespace and we have created other namespaces to segregate applications. Individual Ingress is deployed to the respective namespaces. Nginx controller uses the Ingress rules and route traffic to the services accordingly.
 
-![Ingress controller]({{site.url}}/assets/images/2020-06-07/img1.jpg)
+![Ingress controller](assets/images/2020-06-07/img1.jpg)
 
 
 ## Deployment
 
 Lets deploy Nginx controller to a separate namespace.
 
-![Nginx controller]({{site.url}}/assets/images/2020-06-07/img2.jpg)
+![Nginx controller](/assets/images/2020-06-07/img2.jpg)
 
 For this deployment, related resources such as Pods, service, deployment and replicaset are cleated.
 
