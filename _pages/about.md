@@ -1,6 +1,6 @@
 ---
 layout: page
-title: dSolve.cloud
+title: About
 permalink: /about
 comments: true
 ---
@@ -8,7 +8,12 @@ comments: true
 <div class="row justify-content-between">
 <div class="col-md-8 pr-5">
 
-<p>This blog is a platform for different how's and why's on various topics in cloud and devops.</p>
+<p>This blog is a platform for different how's and why's on various topics in cloud and devops. This is a memoir of all my work experience and explorations</p>
+
+<h4>Author Info</h4>
+<p>Name: Prabhuraj Vasudevan</p>
+<p>Linkedin Profile: <a href="https://www.linkedin.com/in/prabhuraj-vasudevan/">Prabhuraj Vasudevan</a></p>
+<p>Email: prabhu130986@gmail.com</p>
 
 <!-- <p class="mb-5"><img class="shadow-lg" src="{{site.baseurl}}/assets/images/mediumish-jekyll-template.png" alt="jekyll template mediumish" /></p>
 <h4>Documentation</h4>
