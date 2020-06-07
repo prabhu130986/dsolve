@@ -24,7 +24,7 @@ Now let us use Nginx ingress controller to route traffic to AKS cluster services
 
 In this architecture, Nginx controller is deployed on a sperate namespace and we have created other namespaces to segregate applications. Individual Ingress is deployed to the respective namespaces. Nginx controller uses the Ingress rules and route traffic to the services accordingly.
 
-![Ingress controller]({{ site.url }}/assets/images/img1.JPG)
+![Ingress controller](/assets/images/2020-06-07/img1.JPG)
 
 ## Deployment
 
@@ -34,23 +34,23 @@ Lets deploy Nginx controller to a separate namespace.
 
 For this deployment, related resources such as Pods, service, deployment and replicaset are cleated.
 
-![Nginx resources]({{ site.url }}/assets/images/2020-06-07/img3.JPG)
+![Nginx resources](/assets/images/2020-06-07/img3.JPG)
 
 Now lets create a dev namespace and deploy two sample pods and service, aks-helloworld and nginx.
 
-![aks-helloworld](assets/images/2020-06-07/img4.JPG)
+![aks-helloworld](/assets/images/2020-06-07/img4.JPG)
 
-![nginx]({{site.url}}/assets/images/2020-06-07/img5.JPG)
+![nginx](/assets/images/2020-06-07/img5.JPG)
 
 Following resources would be created in dev namespace as part of the deployment.
 
-![app resources]({{site.url}}/assets/images/2020-06-07/img6.JPG)
+![app resources](/assets/images/2020-06-07/img6.JPG)
 
 ## Ingress
 
 Now let us deploy the Ingress rule. Remember this has to be deployed to the same namespace as the services, i.e dev namespace.
 
-![Ingress]({{site.url}}/assets/images/2020-06-07/img7.JPG)
+![Ingress](/assets/images/2020-06-07/img7.JPG)
 
 ## Testing
 
@@ -58,9 +58,9 @@ Now, for us to test the ingress controller, we have to use the Public IP address
 
 Use the path that is set in ingress rule to access the respective services.
 
-![aks-helloworld]({{site.url}}/assets/images/2020-06-07/img8.JPG)
+![aks-helloworld](/assets/images/2020-06-07/img8.JPG)
 
-![nginx]({{site.url}}/assets/images/2020-06-07/img9.JPG)
+![nginx](/assets/images/2020-06-07/img9.JPG)
 
 
 #### Using the same method you can have multiple namespaces created and deploy ingress rules to the respective namespaces. !!! Cheers !!!
