@@ -4,7 +4,7 @@ title:  "Migrate on-premise windows servers to Azure using offline mode - Part 1
 author: Prabhu
 categories: [ Azure ]
 image: assets/images/azure.jpg
-featured: true
+featured: false
 ---
 
 When migrating workload from on-premise to Azure there are several factors which need to be considered before choosing the best method for migration. What type of connectivity is there between on-premise and Azure region, bandwidth of the connectivity, type of workload, criticality of workload etc.

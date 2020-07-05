@@ -4,7 +4,7 @@ title:  "Migrate on-premise windows servers to Azure using offline mode - Part 2
 author: Prabhu
 categories: [ Azure ]
 image: assets/images/azure.jpg
-featured: true
+featured: false
 ---
 
 In this [Part 1]({{ site.url }}{% link _posts/2020-04-12-azure-Migrate-windows-servers-offline-Part-1.md %}) post we saw how to capture and convert on-premise windows servers to VHD and send it to Azure region using offline mode. In this post let us see how to convert the VHD to Azure managed disk and provision VM using that.
