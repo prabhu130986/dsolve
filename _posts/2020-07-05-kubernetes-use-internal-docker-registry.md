@@ -2,8 +2,8 @@
 layout: post
 title:  "Use internal docker registry to pull image to AKS"
 author: Prabhu
-categories: [ Kubernetes, Azure ]
-image: assets/images/kubernetes.jpg
+categories: [ Kubernetes, Azure, Docker ]
+image: assets/images/AKD.jpg
 featured: true
 ---
 
