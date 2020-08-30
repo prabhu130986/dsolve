@@ -4,7 +4,7 @@ title:  "Use internal docker registry to pull image to AKS"
 author: Prabhu
 categories: [ Kubernetes, Azure, Docker ]
 image: assets/images/AKD.jpg
-featured: true
+featured: false
 ---
 
 All large organisations will try to host workloads in an atonomous / private environment even though they host in public cloud providers by blocking public exposure of their systems. 
